@@ -28,4 +28,4 @@ def numbers(num)
   end
 
 end
-p numbers(10)
+p newarray
