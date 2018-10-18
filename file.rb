@@ -15,9 +15,7 @@ numbers.each do |num|
     end
 end
 
-p by10
-p by3
-p by7
+
 
 
 numbers = [10, 15, 18, 20]
@@ -28,5 +26,5 @@ def numbers(num)
   if num %5 == 0
     puts newarray.push(num)
   end
-  
+
 end
