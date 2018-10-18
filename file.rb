@@ -7,6 +7,9 @@ evens =[]
 array.each do |num|
   if num.even?
     evens.push(num)
+  else
+    odds.push(num)
   end
 end
 p evens
+p odds
