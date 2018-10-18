@@ -16,7 +16,7 @@ numbers.each do |num|
 end
 
 
-numbers = [10, 15, 18, 20]
+array = [10, 15, 18, 20]
 
 def numbers(array, x)
 newarray = []
