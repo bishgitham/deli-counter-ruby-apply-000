@@ -16,5 +16,5 @@ p odds
 
 2times do |int|
   int = "hello"
-  {puts "it will print twic #{int}"}
+  puts "it will print twic #{int}"
 end
