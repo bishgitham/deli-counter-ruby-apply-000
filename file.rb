@@ -25,6 +25,7 @@ array.each do |num|
   if num % x == 0
     newarray.push(num)
   end
+end
   return newarray
 end
 
