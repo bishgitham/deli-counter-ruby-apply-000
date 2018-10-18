@@ -24,7 +24,7 @@ secondarray = []
 
 
   if num %5 == 0
-    puts newarray.push(num)
+    p newarray.push(num)
   end
 
 end
