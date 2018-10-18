@@ -30,3 +30,4 @@ end
 end
 
 p numbers(numbers, 5)
+p numbers(numbers, 3)
