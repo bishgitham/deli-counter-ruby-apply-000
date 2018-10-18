@@ -1,6 +1,6 @@
 array = [10, 15, 18, 20]
 
-def numbers(array, x)
+def numbers(new, x)
 newarray = []
 
 array.each do |num|
@@ -11,5 +11,5 @@ end
   return newarray
 end
 
-p numbers(numbers, 5)
-p numbers(numbers, 3)
+p numbers(new, 5)
+p numbers(new, 3)
