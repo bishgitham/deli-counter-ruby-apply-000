@@ -24,4 +24,4 @@ learning.each do |x|
   end
 end
 
-p learning (array, 100)
+p learning(array, 100)
