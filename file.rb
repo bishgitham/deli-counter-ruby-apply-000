@@ -13,17 +13,3 @@ end
 
 p numbers(numbers, 5)
 p numbers(numbers, 3)
-
-numbers = [100, 107, 120, 109, 200, 307]
-
-def learning(array,num)
-  array1 = []
-learning.each do |x|
-  if num > x
-    array1.push(num)
-  end
-end
-  return array1
-end
-
-p learning(array, 110)
