@@ -3,5 +3,5 @@ array1 =  []
 array2= []
 array.each do |element|
 
-  array1.push(element 0,2)
+p  array1.push(element)
 end
