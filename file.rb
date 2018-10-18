@@ -22,8 +22,8 @@ learning.each do |x|
   if num > x
     array1.push(num)
   end
-  return array1
 end
+  return array1
 end
 
 p learning(array, 110)
