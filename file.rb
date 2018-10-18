@@ -13,3 +13,7 @@ array.each do |num|
 end
 p evens
 p odds
+
+2times.each do |int|
+  puts "going to print two times"
+end
