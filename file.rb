@@ -23,4 +23,5 @@ end
   number = 16
   square = number * number
   puts "The number is #{number} and its square is #{square}."
+  puts "#{square} is square of #{number}."
 end
