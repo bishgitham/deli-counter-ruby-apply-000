@@ -14,7 +14,7 @@ end
 p evens
 p odds
 
-2times.do |int|
+2times do |int|
   int = "hello"
   puts "going to print two times #{int}."
 end
