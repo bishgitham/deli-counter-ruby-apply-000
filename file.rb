@@ -18,3 +18,9 @@ p odds
   int = "hello"
   puts "it will print twic #{int}"
 end
+
+3.times do |number|
+  number = 16
+  square = number * number
+  puts "The number is #{number} and its square is #{square}."
+end
