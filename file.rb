@@ -17,15 +17,14 @@ end
 
 
 
-
+def numbers(num)
 numbers = [10, 15, 18, 20]
 newarray = []
 secondarray = []
 
-def numbers(num)
+
   if num %5 == 0
     puts newarray.push(num)
   end
 
 end
-p newarray
