@@ -3,5 +3,5 @@ array1 =  []
 array2= []
 array.each do |element|
 
-print  array1.push(element)
+puts  array1.push(element)
 end
