@@ -14,7 +14,7 @@ end
 p evens
 p odds
 
-2times do |int|
+2.times do |int|
   int = "hello"
   puts "it will print twic #{int}"
 end
