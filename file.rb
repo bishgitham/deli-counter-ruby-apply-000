@@ -17,11 +17,13 @@ p numbers(numbers, 3)
 numbers = [100, 107, 120, 109, 200, 307]
 
 def learning(array,num)
-  array1 =[ ]
+  array1 = [ ]
 learning.each do |x|
   if num > x
     array1.push(num)
   end
+  return array1
+end
 end
 
-p learning(array, 100)
+p learning(array, 110)
