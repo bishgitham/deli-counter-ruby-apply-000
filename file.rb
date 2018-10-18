@@ -16,15 +16,16 @@ numbers.each do |num|
 end
 
 
-
-def numbers(num)
 numbers = [10, 15, 18, 20]
+
+def numbers(array, x)
 newarray = []
-secondarray = []
 
-
-  if num %5 == 0
-    p newarray.push(num)
+array.each do |num|
+  if num % x == 0
+    newarray.push(num)
   end
-
+  return newarray
 end
+
+p numbers(numbers, 5)
